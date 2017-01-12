@@ -1,0 +1,29 @@
+{
+	"name": "baardbaard/beacon",
+	"type": "wordpress-plugin",
+	"license": "GPLv3",
+	"description": "Beacon is a WordPress plugin that adds a widget to the WP dashboard to help new users.",
+	"keywords": ["wordpress", "plugin"],
+	"homepage": "https://github.com/baardbaard/beacon",
+	"authors": [
+		{
+			"name": "Stef Thoen",
+			"email": "stef@baardbaard.nl",
+			"homepage": "http://www.baardbaard.nl"
+		}
+	],
+    "support" : {
+		"issues": "https://github.com/baardbaard/beacon/issues"
+    },
+	"autoload": {
+		"classmap": ["src/"]
+	},
+	"require": {
+		"php": ">=5.6"
+	},
+	"require-dev": {
+		"phpdocumentor/phpdocumentor": "^2.8",
+		"phpunit/phpunit": "5.5.*",
+		"raveren/kint": "^1.0"
+	}
+}
